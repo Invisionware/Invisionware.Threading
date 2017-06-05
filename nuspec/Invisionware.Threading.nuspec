@@ -9,7 +9,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Contains various object and methods to supporting threading and asyn programming (TaskLocal)</description>
     <summary>Contains various object and methods to supporting threading and asyn programming</summary>
-    <releaseNotes>Initial Version</releaseNotes>
+	<projectUrl>https://github.com/Invisionware/Threading</projectUrl>
+	<licenseUrl>https://raw.githubusercontent.com/Invisionware/Threading/master/LICENSE</licenseUrl>
+    <releaseNotes></releaseNotes>
     <copyright>(c) 2016 Invisionware</copyright>
     <language>en-US</language>
     <tags>Threads Tasks</tags>
