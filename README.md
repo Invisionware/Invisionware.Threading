@@ -4,7 +4,14 @@ Invisionware Frmaework is a collection of utilities classes, extension methods, 
 ## Threading
 This portion of the Invisionware Framework is focused on enhancements to Threading in the .NET frmaework.
 
-Add the following using statement
+[![NuGet](https://img.shields.io/nuget/v/Invisionware.Threading.svg)](https://www.nuget.org/packages/Invisionware.Threading)
+
+Packages related to Invisionware Threading
+```powershell
+Install-Package Invisionware.Threading
+```
+
+Then just add the following using statement
 ```c#
 using Invisionware.Threading;
 ```
