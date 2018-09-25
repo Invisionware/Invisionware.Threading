@@ -13,34 +13,31 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".misc", ".misc", "{B67DBE97-2A64-4E27-8878-698FC381DABD}"
 	ProjectSection(SolutionItems) = preProject
 		build.cake = build.cake
+		build.settings.json = build.settings.json
+		build.version.json = build.version.json
 		README.md = README.md
-		settings.json = settings.json
-		version.json = version.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FC9A0D21-3049-40EF-B6F1-55DA2CB685F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invisionware.Threading", "src\Invisionware.Threading\Invisionware.Threading.csproj", "{94FBB698-484A-420D-ABEF-0A9248788E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invisionware.Threading", "src\Invisionware.Threading\Invisionware.Threading.csproj", "{94FBB698-484A-420D-ABEF-0A9248788E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invisionware.Threading.Net45", "src\Invisionware.Threading.Net45\Invisionware.Threading.Net45.csproj", "{715170A2-468C-40FB-B0B7-46F7FE37B4BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invisionware.Threading.Tests", "tests\Invisionware.Threading.Tests\Invisionware.Threading.Tests.csproj", "{8C11ACB1-D615-485B-A052-8D6788BF76DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invisionware.Threading.Tests", "tests\Invisionware.Threading.Tests\Invisionware.Threading.Tests.csproj", "{8C11ACB1-D615-485B-A052-8D6788BF76DE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invisionware.Threading.Console", "tests\Invisionware.Threading.Console\Invisionware.Threading.Console.csproj", "{3747629D-7803-44FC-B59D-D9BEC6BB06B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invisionware.Threading.Console", "tests\Invisionware.Threading.Console\Invisionware.Threading.Console.csproj", "{3747629D-7803-44FC-B59D-D9BEC6BB06B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{170B64E1-5A0B-4469-A44D-BEEB9E88889D}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invisionware.Threading.NetStandard13", "src\Invisionware.Threading.NetStandard13\Invisionware.Threading.NetStandard13.csproj", "{3CA39DF9-CB66-4C9A-A3AC-9619FE0A227C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invisionware.Threading.NetStandard13", "src\Invisionware.Threading.NetStandard13\Invisionware.Threading.NetStandard13.csproj", "{3CA39DF9-CB66-4C9A-A3AC-9619FE0A227C}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Invisionware.Threading.Shared", "src\Invisionware.Threading.Shared\Invisionware.Threading.Shared.shproj", "{AA272F1D-64FD-4D25-8EA7-0BB8F7FF4214}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\Invisionware.Threading.Shared\Invisionware.Threading.Shared.projitems*{3ca39df9-cb66-4c9a-a3ac-9619fe0a227c}*SharedItemsImports = 4
-		src\Invisionware.Threading.Shared\Invisionware.Threading.Shared.projitems*{715170a2-468c-40fb-b0b7-46f7fe37b4ba}*SharedItemsImports = 4
 		src\Invisionware.Threading.Shared\Invisionware.Threading.Shared.projitems*{aa272f1d-64fd-4d25-8ea7-0bb8f7ff4214}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,22 +67,6 @@ Global
 		{94FBB698-484A-420D-ABEF-0A9248788E38}.Release|x64.Build.0 = Release|Any CPU
 		{94FBB698-484A-420D-ABEF-0A9248788E38}.Release|x86.ActiveCfg = Release|Any CPU
 		{94FBB698-484A-420D-ABEF-0A9248788E38}.Release|x86.Build.0 = Release|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Debug|ARM.Build.0 = Debug|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Debug|x64.Build.0 = Debug|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Debug|x86.Build.0 = Debug|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Release|ARM.ActiveCfg = Release|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Release|ARM.Build.0 = Release|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Release|x64.ActiveCfg = Release|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Release|x64.Build.0 = Release|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Release|x86.ActiveCfg = Release|Any CPU
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA}.Release|x86.Build.0 = Release|Any CPU
 		{8C11ACB1-D615-485B-A052-8D6788BF76DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C11ACB1-D615-485B-A052-8D6788BF76DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C11ACB1-D615-485B-A052-8D6788BF76DE}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -140,10 +121,12 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{94FBB698-484A-420D-ABEF-0A9248788E38} = {030783D5-8B49-446B-B4BD-623CE9C87C7E}
-		{715170A2-468C-40FB-B0B7-46F7FE37B4BA} = {030783D5-8B49-446B-B4BD-623CE9C87C7E}
 		{8C11ACB1-D615-485B-A052-8D6788BF76DE} = {FC9A0D21-3049-40EF-B6F1-55DA2CB685F3}
 		{3747629D-7803-44FC-B59D-D9BEC6BB06B9} = {FC9A0D21-3049-40EF-B6F1-55DA2CB685F3}
 		{3CA39DF9-CB66-4C9A-A3AC-9619FE0A227C} = {030783D5-8B49-446B-B4BD-623CE9C87C7E}
 		{AA272F1D-64FD-4D25-8EA7-0BB8F7FF4214} = {030783D5-8B49-446B-B4BD-623CE9C87C7E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70F8A93B-B3F3-4BED-9EED-BF9E804FE5BE}
 	EndGlobalSection
 EndGlobal
