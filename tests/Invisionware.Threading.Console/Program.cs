@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using Nito.AsyncEx;
 
-namespace Invisionware.Threading.Console.csproj
+namespace Invisionware.Threading.Console
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
+    class Program
+    {
+        static void Main(string[] args)
+        {
 			System.Console.WriteLine("Starting");
 
 			AsyncContext.Run(() => TestCase());
@@ -40,6 +40,6 @@ namespace Invisionware.Threading.Console.csproj
 
 			await Task.WhenAll(list.ToArray());
 
-		}
-	}
+        }
+    }
 }
