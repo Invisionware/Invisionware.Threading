@@ -2,16 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
 	<metadata>
 		<id>Invisionware.Threading</id>
-		<version>1.1.5</version>
+		<version>1.1.6</version>
 		<title>Invisionware.Threading</title>
 		<authors>Invisionware</authors>
 		<owners>Invisionware</owners>
+		<projectUrl>https://github.com/Invisionware/Invisionware.Threading</projectUrl>
+		<licenseUrl>https://raw.githubusercontent.com/Invisionware/Invisionware.Threading/master/LICENSE</licenseUrl>
+		<iconUrl>https://github.com/Invisionware/Invisionware.Threading/raw/master/logo.png</iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Contains various object and methods to supporting threading and asyn programming (TaskLocal)</description>
 		<summary>Contains various object and methods to supporting threading and asyn programming</summary>
-		<projectUrl>https://github.com/Invisionware/Threading</projectUrl>
-		<licenseUrl>https://raw.githubusercontent.com/Invisionware/Threading/master/LICENSE</licenseUrl>
-		<iconUrl>https://github.com/Invisionware/Threading/raw/master/logo.png</iconUrl>
 		<releaseNotes></releaseNotes>
 		<copyright>Copyright © 2018 Invisionware</copyright>
 		<language>en-US</language>
