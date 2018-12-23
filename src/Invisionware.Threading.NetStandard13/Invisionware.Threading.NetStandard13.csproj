@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="project.lock.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Invisionware.Threading\Invisionware.Threading.csproj" />
   </ItemGroup>
 

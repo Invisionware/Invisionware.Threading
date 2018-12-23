@@ -4,7 +4,7 @@
 		<PackageId>Invisionware.Threading</PackageId>
 		<Authors>Invisionware</Authors>
 		<PackageProjectUrl>https://github.com/Invisionware/Invisionware.Threading</PackageProjectUrl>
-		<PackageLicenseUrl>https://raw.githubusercontent.com/Invisionware/Invisionware.Threading/master/LICENSE</PackageLicenseUrl>
+		<license>Apache-2.0</license>
 		<PackageIconUrl>https://github.com/Invisionware/Invisionware.Threading/raw/master/logo.png</PackageIconUrl>
 		<Description>Contains various object and methods to supporting threading and asyn programming (TaskLocal)</Description>
 		<PackageReleaseNotes></PackageReleaseNotes>
@@ -12,4 +12,7 @@
 		<PackageTags>Threads Tasks</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="project.lock.json" />
+	</ItemGroup>
 </Project>
