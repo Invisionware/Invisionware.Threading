@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Invisionware.Threading.NetStandard13\Invisionware.Threading.NetStandard13.csproj" />
+    <ProjectReference Include="..\..\src\Invisionware.Threading.Net\Invisionware.Threading.Net.csproj" />
     <ProjectReference Include="..\..\src\Invisionware.Threading\Invisionware.Threading.csproj" />
   </ItemGroup>
 

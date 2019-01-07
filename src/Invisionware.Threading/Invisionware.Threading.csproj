@@ -1,18 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
 	<PropertyGroup>
-		<TargetFramework>netstandard1.0</TargetFramework>
+		<TargetFrameworks>netcoreapp1.0;netstandard1.0;net472</TargetFrameworks>
 		<PackageId>Invisionware.Threading</PackageId>
 		<Authors>Invisionware</Authors>
 		<PackageProjectUrl>https://github.com/Invisionware/Invisionware.Threading</PackageProjectUrl>
 		<license>Apache-2.0</license>
 		<PackageIconUrl>https://github.com/Invisionware/Invisionware.Threading/raw/master/logo.png</PackageIconUrl>
 		<Description>Contains various object and methods to supporting threading and asyn programming (TaskLocal)</Description>
-		<PackageReleaseNotes></PackageReleaseNotes>
+		<PackageReleaseNotes />
 		<Copyright>Copyright © 2018 Invisionware</Copyright>
 		<PackageTags>Threads Tasks</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
-	<ItemGroup>
-	  <None Remove="project.lock.json" />
-	</ItemGroup>
 </Project>
