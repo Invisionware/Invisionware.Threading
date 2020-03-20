@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netcoreapp2.0;netstandard1.3;net472</TargetFrameworks>
+		<TargetFrameworks>netstandard2.1;net472</TargetFrameworks>
 		<PackageId>Invisionware.Threading.Net</PackageId>
 		<Authors>Invisionware</Authors>
 		<PackageProjectUrl>https://github.com/Invisionware/Invisionware.Threading</PackageProjectUrl>
